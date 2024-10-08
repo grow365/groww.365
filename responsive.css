@@ -1,0 +1,107 @@
+@media(max-width: 1200px){
+
+    .filterbox{
+        padding: 30px 40px !important;
+    }
+}
+@media(max-width: 992px){
+    /* .section{
+        display: block;
+    } */
+    .filterbox{
+        padding: 30px 15px !important;
+    }
+    .content{
+        grid-gap: 12px;
+    }
+    .navigation a{
+        padding: 9px 12px !important;
+    }
+}
+
+/* @media (max-width: 768px) {
+    .section{
+        display: block;
+    }
+    .container-fluid {
+        padding-right: 50px !important; 
+        /* Set padding to 0 for screens up to 768px */
+       /* padding-left: 50px !important;
+    }
+    .filter-tabs{
+        flex-wrap:wrap !important;
+    }
+} */
+@media(max-width: 767px){
+/* @media(max-width: 822px){ */
+    .shot-thumbnail{
+        margin-top: 20px;
+    }
+    /* .section{
+        display: block;
+    } */
+    /* .gallery-section{
+        padding-right: 10px;
+    } */
+    .filterbox{
+        padding: 30px 40px !important;
+    }
+    .box-container{
+        columns: 3 !important;
+        /* padding-right: 2px; */
+    }
+    .filter-tabs{
+        flex-wrap:wrap ;   /*!important*/
+    }
+    .filter-sort{
+        width: 100%;
+    }
+    .navigation{
+        display: flex;
+        overflow-x: scroll;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+    /* .navigation a{
+        padding: 9px 12px !important;
+    } */
+/* Slim scrollbar styles */
+.navigation {
+    overflow-y: hidden;  /* Disable vertical scrolling */
+    overflow-x: auto;    /* Enable horizontal scrolling */
+}
+
+/* Slimming the scrollbar */
+.navigation::-webkit-scrollbar {
+    width: 6px !important;  /* Slim scrollbar width */
+    height: 4px !important; /* Slim scrollbar height for horizontal scroll */
+}
+
+.navigation::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;  /* Background color for the scrollbar track */
+}
+
+.navigation::-webkit-scrollbar-thumb {
+    background-color: #888 !important; /* Color of the scrollbar thumb */
+    border-radius: 10px !important;  /* Rounded corners for the scrollbar */
+}
+
+.navigation::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;  /* Darker color on hover */
+}
+
+  /*  .box-container {
+        columns: 3 !important;  Set to 3 columns 
+        column-gap: 20px;  Maintain the gap between columns 
+    }*/
+}
+@media(max-width: 567px){
+    .px-0{
+        padding: 0px;
+    }
+    .filterbox{
+        padding-right: 25px !important;
+        padding-left: 25px !important;
+
+    }
+}
